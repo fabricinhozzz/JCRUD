@@ -98,7 +98,7 @@ public class Logic {
 			
 		} catch(Exception e) {
 			e.printStackTrace();
-			System.err.println("Erro ao buscar produtos");
+			System.err.println("erro buscando produtos");
 			System.exit(-12);
 		}
 	}
@@ -148,7 +148,7 @@ public class Logic {
 			
 		} catch (Exception e) {
 			e.printStackTrace();
-			System.err.println("Erro ao buscar produtos");
+			System.err.println("erro atualizando produto");
 			System.exit(-12);
 		}
 	}
@@ -185,7 +185,7 @@ public class Logic {
 			
 		} catch(Exception e) {
 			e.printStackTrace();
-			System.err.println("erro ao deletar produto");
+			System.err.println("erro deletando produto");
 			System.exit(-12);
 		}
 	}
