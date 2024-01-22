@@ -7,8 +7,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-//1:38:11
-
 public class Logic {
 	static Scanner kb = new Scanner(System.in);
 	
